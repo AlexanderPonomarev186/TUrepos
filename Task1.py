@@ -70,4 +70,6 @@ def decrypt(x, d, n):
 
 message, pub_key, pr_key = crypting("This is test message")
 
+
+print(message)
 print([chr(i) for i in decrypt(message, pr_key[0], pr_key[1])], pr_key, pub_key)
